@@ -1,0 +1,11 @@
+>> OBJECT FILES
+Files related to the compilation of each source code.
+   + modeling_iso2d.c              -> modeling_iso2d.o
+   + pi_file.c                     -> pi_file.o
+   + generic_functions.c           -> generic_functions.o
+   + forward_modeling.c            -> forward_modeling.o
+   + stencilDFM.c                  -> stencilDFM.o
+   + absorbingBoundaryCondition.c  -> absorbingBoundaryCondition.o
+   + math_functions.c              -> math_functions.o
+   + backward_modeling.c           -> backward_modeling.o
+   + image_conditions.c            -> image_conditions.o

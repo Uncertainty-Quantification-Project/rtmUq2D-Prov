@@ -1,0 +1,22 @@
+>> OUTPUTS FILES
+   ++ Binary files
+      -- migrated seismic sections per shot:
+         sectionID.bin, where ID is 0, 1, 2, 3, 4, ..., numberOfShots
+         exs.: "crossCorrelation000001.bin", "crossCorrelation000002.bin", ...
+      
+      -- stacked seismic section: summation of the information in the files 
+         "crossCorrelation000001.bin" + "crossCorrelation000002.bin" + ...
+         This process provides a final stacked section that constains information about
+         all shots.
+      
+      -- filtered stacked seismic section: this file contains the result of applying the 
+         Laplacian filter after the summation described.
+         This process provides a final stacked section that constains information about
+         all shots.
+
+Observation 1:
+      
+      Each seismic section is a binary file with Nx * Nz information.
+      See 0_inputs_readme.INFO to get information about Nx and Nz values.
+      
+      Each sample of the migrated section represents the seismic amplitude of hydrostatic pressure squared.

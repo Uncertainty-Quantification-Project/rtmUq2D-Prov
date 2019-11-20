@@ -1,0 +1,54 @@
+############################################################
+##########      Reverse Time Migration Code       ##########
+############################################################
+
+
+**********    MAIN FEATURES OF THE FORMULATION    **********
+
+>> Physical and mathematical characteristics
+   ++ Seismic wave equation for a homogeneous medium
+      -- Second-order wave equation
+      -- Isotropic acoustic medium
+      -- Invariant density
+
+>> Numerical characteristics
+   ++ Finite Difference Method
+      -- Second-order in time
+      -- Eighth-order accuracy in space
+   ++ Convolutional Perfectly Matched Layer for wavefield 
+      attenuation on the boundary
+
+   ++ Image Condition
+      -- Cross-correlation: correlation between source wavefield 
+         and receivers wavefield.
+         This process produces amplitude squared.
+____________________________________________________________
+
+
+********    COMPILATION AND RUNNING INSTRUCTIONS   *********
+
+>> Compilation Requeriments
+   ++ ICC compiler
+   ++ OpenMP Library
+
+
+>> Compilation
+   ++ Use run.sh file with the command:
+      ./run.sh
+
+>> Running
+   ++ Use the command: 
+      time ./rtm_iso2d
+____________________________________________________________
+
+
+********             EXTRA INFORMATION             *********
+
+>> For more details about input and output requirements see:
+   ++ ./INPUTS/0_inputs_readme.INFO
+   ++ ./OUTPUTS/0_outputs_readme.INFO
+   
+>> To run this code, make download of the last version commited to
+   a local repository. After that, the vp, seismic source and seismograms can be
+   obtained from commit 9cbe25753b534b079c891a9a44d7f988a7c974c3 
+   from December, 2018.

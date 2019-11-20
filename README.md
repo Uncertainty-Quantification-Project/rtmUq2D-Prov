@@ -1,4 +1,4 @@
-# rtm_instrumentada
+# instrumented_rtm
 Reverse Time Migration with provenance data capture
 
 ## Overview

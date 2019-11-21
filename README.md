@@ -24,5 +24,5 @@ make
 mpirun -n 1 ./mpi-rtm_iso2d
 
 ```
-#Contact
-If you have any questions just send an email to lneves@cos.ufrj.br
+# Contact
+ lneves@cos.ufrj.br

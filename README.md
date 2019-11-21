@@ -1,4 +1,3 @@
-# instrumented_rtm
 Reverse Time Migration with provenance data capture
 
 ## Overview
@@ -25,5 +24,5 @@ make
 mpirun -n 1 ./mpi-rtm_iso2d
 
 ```
-
+#Contact
 If you have any questions just send an email to lneves@cos.ufrj.br
